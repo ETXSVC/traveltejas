@@ -91,7 +91,7 @@ Mail uses `MAIL_MAILER=sendmail` via the local Postfix (`/usr/sbin/sendmail`). O
 
 ### Aimeos data model
 
-All Aimeos data lives in `mshop_*` and `madmin_*` tables (81 + 5 tables). The site code is `default` (siteid `1.`). Key tables:
+All Aimeos data lives in `mshop_*` and `madmin_*` tables (81 + 5 tables). The site code is `www.traveltejas.com` (id `1` in `mshop_locale_site`). This is configured explicitly in `config/shop.php` under `mshop.locale.site`. Key tables:
 - `mshop_cms` — CMS pages (url field must include leading `/`, e.g. `/terms`)
 - `mshop_product`, `mshop_catalog` — products and categories
 - `mshop_text` — all translatable text, linked via `mshop_*_list` tables

@@ -175,7 +175,7 @@ return [
 
 	'mshop' => [
 		'locale' => [
-			// 'site' => '<custom site code>', // used instead of "default"
+			'site' => 'www.traveltejas.com',
 		]
 	],
 
