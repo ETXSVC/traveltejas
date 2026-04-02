@@ -1,4 +1,4 @@
-# TravelTejas
+# TravelTejas Web Project
 
 E-commerce storefront built with **Laravel 12** and **Aimeos 2025.10**, deployed at [traveltejas.com](https://traveltejas.com).
 
