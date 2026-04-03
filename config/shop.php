@@ -34,7 +34,7 @@ return [
 		'basket-index' => ['locale/select', 'catalog/tree', 'catalog/search', 'basket/standard', 'basket/bulk', 'basket/related'],
 		'catalog-count' => ['catalog/count'],
 		'catalog-detail' => ['locale/select', 'basket/mini', 'catalog/tree', 'catalog/search', 'catalog/stage', 'catalog/detail', 'catalog/session'],
-		'catalog-home' => ['locale/select', 'basket/mini', 'catalog/tree', 'catalog/search', 'catalog/home'],
+		'catalog-home' => ['locale/select', 'basket/mini', 'catalog/tree', 'catalog/search', 'catalog/home', 'cms/page'],
 		'catalog-list' => ['locale/select', 'basket/mini', 'catalog/filter', 'catalog/tree', 'catalog/search', 'catalog/price', 'catalog/supplier', 'catalog/attribute', 'catalog/session', 'catalog/stage', 'catalog/lists'],
 		'catalog-session' => ['locale/select', 'basket/mini', 'catalog/tree', 'catalog/search', 'catalog/session'],
 		'catalog-stock' => ['catalog/stock'],
@@ -119,6 +119,10 @@ return [
 	],
 
 	'admin' => [],
+
+	'csp' => [
+		'backend' => "style-src 'unsafe-inline' 'self' https://cdnjs.cloudflare.com; font-src 'self' https://cdnjs.cloudflare.com; script-src 'unsafe-eval' 'self'; connect-src 'self' https://*.deepl.com https://api.openai.com; img-src 'self' data: blob: https://*.tile.openstreetmap.org https://aimeos.org; frame-src https://www.youtube.com https://player.vimeo.com",
+	],
 
 	'client' => [
 		'html' => [
